@@ -1,0 +1,65 @@
+input{
+    padding: 10px;
+    color: black;
+    border-radius: 6px;
+    
+}
+legend{
+    color: green;
+    size: 5;
+    text-emphasis: center;
+}
+select{
+    padding: 10px;
+border: 5;
+border-radius: 6px;
+
+}
+option{
+    padding: 8;
+    border: 5;
+}
+body{
+    background-color: paleturquoise;
+    background-image: url("yaron\ pro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 40;
+}
+script{
+    background-color: green;
+    color: greenyellow;
+}
+.sub{
+    color: white;
+    background-color: blue;
+    width: 320px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    align-items: center;
+    justify-self: unset;
+    justify-content: center;
+}
+input[type="checkbox"]{
+    padding: 100px;
+
+}
+h1{
+    color: green;
+    text-align: center;
+}
+.res{
+    color: white;
+    background-color: blue;
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 18px;
+    height: 50px;
+}
+.che{
+    padding: 10px;
+    border: 50pc;
+}

@@ -1,0 +1,50 @@
+<title>application form</title>
+<link rel="stylesheet" href="form.css">
+<body>
+    <script color="lemo">
+        alert("PROVIDE A CORRECT INFORMATION")
+    </script>
+    <h1>RECRUITMENT APPLICATION FORM </h1>
+    
+    <br><br>
+<form action="connect.php" method="post">
+    <fieldset>
+        <legend >PERSONAL INFORMATION</legend>
+<input type="text" name="first name" placeholder="FIRST NAME" id="first name" required> 
+<input type="text" name="second name" placeholder="SECOND NAME" id="second name" required><br><br>
+<input type="tel" name="other name" placeholder="OTHER NAME" id="other name">
+DOB<input type="date" id="dob" name="dob" required><br><br>
+<input type="email" id="email" name="email" placeholder="EMAIL" required>
+<input type="tel" id="phone" name="phone" placeholder="PHONE NUMBER" minlength="11" maxlength="11" required><br><br>
+<select name="gender">
+    <option value="MALE" >MALE</option>
+    <option value="FEMALE">FEMALE</option>
+</select>
+<input type="address" name="address" id="address" placeholder="ADDREESS" required>
+</fieldset>
+<br><br><br>
+<fieldset>
+    <legend>QUALIFICATION</legend>
+    PRIMARY<input type="file" accept="image/*" name="primary" id="primary" required>  SSCE<input type="file" id="ssce" name="ssce" accept="image/*" required><br><br>
+    INDIGIN CERTIFICATE <input type="file" name="indigin" id="indigin" accept="image/*"  required> OTHER CERTIFICATE<input type="file" name="other certificate" accept="image/*" id="other certificate">
+</fieldset>
+<br><br><br>
+<fieldset>
+    <legend>NEXT OF KIND INFORMATION</legend>
+    <input type="text" name="nok full name" id="nok full name" placeholder="FULL NAME" required><input type="tel" placeholder="PHONE NUMBER" name="nok phone" required><br><br>
+    <input type="address" name="nok address" id="nok address" placeholder="ADDREESS" reqtuired> <input type="email" name="nok email" id="nok email" placeholder="EMAIL" required><br><br>
+    
+</fieldset><br><br><br>
+<fieldset>
+    <legend>HISTORY OF EDUCATION</legend>
+    <BR>
+        <input type="text" name="hispri" placeholder="PRIMARY SCHOOL NAME" id="hispri" required> GRADUATION DATE<input type="date" name="pridate" required><br><br>
+        <input type="text" name="hisscon" placeholder="SCONDARY SCHOOL NAME" id="hisscon" required> GRADUATION DATE<input type="date" name="scodate"><br><br>
+
+</fieldset>
+<input type="checkbox" class="che" required>Once you submit you may no longer able to edit<br><br><br>
+    <button type="submit" class="sub">SUBMIT APPLICATION</button>
+    <button type="reset" class="res">RESET INFORMATION</button>
+
+</form>
+</body>
