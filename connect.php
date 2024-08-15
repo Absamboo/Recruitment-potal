@@ -1,28 +1,28 @@
-<php
+<?php
 $first_name = "root";
 $second_name = "root";
 $other_name = "root";
 $dob = "root";
 $email = "root";
 $phone = "root";
-$gender = "root"
+$gender = "root";
 $address = "root";
-$nok_full_name = "root";
-$nok_phone = "root";
-$nok_address = "root";
-$nok_email = "root";
-$hispri = "root";
-$pridate = "root";
-$hissecon = "root";
-$scodate = "root";
 $primary = "root";
 $ssce = "root";
 $indigin = "root";
-$other_certificate = "root";
-$db = "firsttime";
+$other_cetificate = "root";
+$nok_full_name = "root";
+$nok_phone = "root";
+$nok_email = "root";
+$nok_address = "root";
+$hispri = "root";
+$pridate = "root";
+$hisscon = "root";
+$scodate = "root";
+$db = "firttime";
+$host = "localhost";
 
-
-$db = mew mysqli('localhost', $first_name, $second_name, $other_name, $dob,
-$email, $phone, $gender, $address,$nok_full_name, $nok_phone, $nok_address, $nok_email, $hispri, $hissecon, $pridate, $scodate, $primary, $ssce, $indigin, $other_certificate, $db) or die("unable to connect");
-echo"successfully submitted";
-
+// database connection
+potal = new mysqli ($host, $first_name, $second_name, $other_name, $dob, $email, $phone, $gender, $address, $primary, $ssce, $other_cetificate, $indigin, $nok_full_name, $nok_email, $nok_phone, $nok_address, $hispri, $hisscon, $scodate, $pridate, $db); 
+echo "REGISTRATION SUCCESSFULLY";
+?>
